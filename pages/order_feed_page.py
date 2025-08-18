@@ -1,7 +1,7 @@
 import allure
 from .base_page import BasePage
 from locators.order_feed_page_locators import OrderFeedPageLocators
-from data.data import FEED_URL
+from urls.urls import FEED_URL
 
 
 class OrderFeedPage(BasePage):

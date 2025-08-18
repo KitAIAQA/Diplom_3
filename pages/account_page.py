@@ -1,7 +1,7 @@
 import allure
 from .base_page import BasePage
 from locators.account_page_locators import AccountPageLocators
-from data.data import LOGIN_URL
+from urls.urls import LOGIN_URL
 
 class AccountPage(BasePage):
 
